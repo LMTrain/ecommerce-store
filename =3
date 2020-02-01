@@ -1,0 +1,9 @@
+
+> bcrypt@3.0.6 install C:\BootCamp\Final Project\pecom\node_modules\bcrypt
+> node-pre-gyp install --fallback-to-build
+
+[bcrypt] Success: "C:\BootCamp\Final Project\pecom\node_modules\bcrypt\lib\binding\bcrypt_lib.node" is installed via remote
++ bcrypt@3.0.6
+added 30 packages from 36 contributors and audited 907953 packages in 33.905s
+found 0 vulnerabilities
+
