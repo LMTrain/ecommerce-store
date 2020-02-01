@@ -1,0 +1,53 @@
+ul.search-results img {
+  margin: 0 auto;
+}
+
+.settings-row1 {
+  background-color: rgb(236, 220, 220);
+  width: 800px;
+  height: 300px;
+  margin-left: -900px;
+  margin-right: -5px;
+  margin-top: 65px;
+}
+
+
+.setting-box {
+  background: #fff;
+  border-radius: 2px;
+  height: 700px;
+  margin-right: 190px;
+  position: relative;
+  width: 400px;
+  box-shadow: 0 5px 12px #999, 0 10px 12px #999;
+  text-align: left;
+}
+
+.setting-box > .img-container {
+  height: 100%;
+  overflow: hidden;
+  text-align: left;
+  cursor: pointer;
+}
+.setting-box > .img-container > img {
+  width: 100%
+}
+
+
+.setting-box > .remove {
+  color: #ff1744;
+  font-size: 48px;
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.setting-box> .remove:hover {
+  color: #d50000;
+}
+
+.lineitems{
+  display: flex;
+  flex-direction: row;
+}

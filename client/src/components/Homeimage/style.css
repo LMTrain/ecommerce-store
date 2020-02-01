@@ -1,0 +1,46 @@
+.homeimage {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  /* opacity: 1; */
+  /* transition: opacity 400ms ease 0ms; */
+  left: 0;
+  top: 1;
+  vertical-align: middle;
+  /* box-sizing: inherit;
+  cursor: zoom-in; */
+
+
+
+}
+
+.homeimage::after {
+  content: "";
+  display: block;
+  opacity: .4;
+  position: absolute;
+  top: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+}
+
+/* .homeimage * {
+  position: absolute;
+  z-index: 2;
+} */
+
+.homeimage h1, .homeimage h2 {
+  color: white;
+  text-align: center;
+}
+
+.homeimage h1 {
+  font-size: 40px;
+  /* padding-top: 140px; */
+  margin-top: 0;
+  text-align-last: center;
+}

@@ -3,14 +3,9 @@ const db = require("../models");
 
 // This file empties the Users collection and inserts the users below
 
-// mongoose.connect(
-//   process.env.MONGODB_URI ||
-//   "mongodb://localhost/usersinpecom"
-// );
-
 mongoose.connect(
   process.env.MONGODB_URI ||
-  "mongodb+srv://Layconmm:C0deme-2019@cluster0-fyenf.mongodb.net/server?retryWrites=true&w=majority"
+  "mongodb://localhost/usersinpecom"
 );
 
 

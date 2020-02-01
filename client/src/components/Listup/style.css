@@ -1,0 +1,40 @@
+.list-overflow-container-uspage {
+  height: 1000px;
+  border: 1px #DDDDDD solid;
+  border-radius: 2px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  width: 400px;
+  height: 350px;
+  margin-left: -195px;
+  margin-top: 40px;
+  margin-right: -80px;
+  background-color: white;
+}
+
+
+.list-overflow-container-uspage ul {
+  margin: 0;
+}
+
+.list-overflow-container-uspage li {
+  border-radius: 0px;
+  border-left: none;
+  border-right: none;
+}
+
+.list-overflow-container-uspage li * {
+  cursor: pointer;
+}
+
+.list-overflow-container-uspage li a {
+  color: #2A878C;
+}
+
+.list-overflow-container-uspage li:first-child {
+  border-top: none;
+}
+
+.list-overflow-container-uspage li:last-child {
+  border-bottom: none;
+}
