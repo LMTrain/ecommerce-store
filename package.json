@@ -25,7 +25,7 @@
   "dependencies": {
     "async": "^3.1.0",
     "await": "^0.2.6",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bcrypt": "^3.0.6",
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
